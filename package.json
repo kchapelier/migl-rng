@@ -1,0 +1,36 @@
+{
+  "name": "migl-rng",
+  "version": "1.0.0",
+  "description": "Micro Game Library : Random number generator (using seedrandom and noisejs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kchapelier/migl-rng.git"
+  },
+  "keywords": [
+    "game",
+    "random",
+    "rng",
+    "perlin",
+    "simplex"
+  ],
+  "author": "Kevin Chapelier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kchapelier/migl-rng/issues"
+  },
+  "homepage": "https://github.com/kchapelier/migl-rng",
+  "dependencies": {
+    "noisejs": "^2.1.0",
+    "seedrandom": "^2.3.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.0",
+    "gulp-jscs": "^1.3.0",
+    "gulp-jshint": "^1.9.0",
+    "jshint-stylish": "^1.0.0"
+  }
+}
